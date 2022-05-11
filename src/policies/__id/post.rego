@@ -9,6 +9,7 @@ default enabled = false
 allowed {
 	props = input.user.attributes.properties
 	props.department == "Operations"
+	props.title == "IT Manager"
 }
 
 enabled {
